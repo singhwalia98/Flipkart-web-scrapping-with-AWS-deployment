@@ -27,7 +27,7 @@
 ## 👨‍💻 About The Project
 * Building a Web scraper for Flipkart website to get all the reviews for any listed product.
 * Building a Flask App to view scrapped data.
-* Deploying the app in Microsoft Azure.
+* Deploying the app in AWS (Amazon Web Services) using AWS Elastic Beanstalk.
 
 <!-- USAGE -->
 ## ❇️ Usage
@@ -39,8 +39,8 @@
 
 * Installing Python, VS Code, Git to Computer.
 * Creating Flask app by importing `Flask` module.
-* Getting information about YouTube.
-* Scraping dynamic website using one of the most popular Python libraries, `BeautifulSoup `which can load the data into Json format by using `"script"` in `soup.find` method.
+* Getting information about Flipkart ecommerce website.
+* Scraping the website using some of the most popular Python libraries, `BeautifulSoup`, flask_cors & `requests`. 
 
 ### Flask
 * Importing the Flask module and creating a Flask web server from the Flask module.
@@ -49,21 +49,21 @@
 * Create a route `/review` to get user input and if product is present in the ecommerce website then the customer reviews are shown in `results.html` page.
 * Run the flask app with `application.run()` code.
 
-### Azure Deployment
+### Cloud Deployment
 * Create new repo in Github and push all the data using `Git`.
-* Create Microsft Azure a/c and login using credentials and setup the app using Azure resource `web app`.
-* Connect with GitHub code using `Deployment Center`
+* Create AWS a/c and login using credentials and setup the app using AWS `Elastic Beanstalk`.
+* Create `code pipeline` in AWS and connect to Github for the source code. 
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### 🖥️ Deployed app demo
 
-https://user-images.githubusercontent.com/121790782/227522206-724e3244-75dd-4178-b5b8-ae6328710fd9.mp4
+https://user-images.githubusercontent.com/121790782/227786724-0442f570-89c1-41e9-ac1e-ea18aa46161e.mp4
 
 
 ### ✨App Screenshot
-![web_scraper_azure_deployment](https://user-images.githubusercontent.com/121790782/227522582-6c62a18c-7b67-4006-80d3-1b0323561b45.jpg)
+![web_scraper_AWS_deployment](https://user-images.githubusercontent.com/121790782/227786747-9acf1775-db7b-4b38-a381-acba09414979.jpg)
 
 
 ### 🧰 **Technologies used**
